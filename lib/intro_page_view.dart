@@ -61,6 +61,15 @@ class IntroPageView extends StatelessWidget {
                       ?.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
                 ),
               ),
+            ),
+
+            //by Ozm0z
+            const Padding(
+              padding: EdgeInsets.only(top: 100),
+              child: Text(
+                LanguageItems.ozm0z,
+                style: TextStyle(color: Colors.grey, fontStyle: FontStyle.italic),
+              ),
             )
           ],
         ),

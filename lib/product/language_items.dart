@@ -5,4 +5,5 @@ class LanguageItems {
   static const String subtitle = 'Groceer gives you fresh vegetables and fruits,\n Order fresh items from groceer';
   static const String getStarted = 'Get started';
   static const String hello = 'Hello!';
+  static const String ozm0z = 'developed by Ozm0z';
 }
