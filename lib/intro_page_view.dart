@@ -23,7 +23,7 @@ class IntroPageView extends StatelessWidget {
               padding: PaddingUtility.paddingMainTitle,
               child: Text(
                 textAlign: TextAlign.center,
-                LanguageItems().mainTitle,
+                LanguageItems.mainTitle,
                 style: Theme.of(context).textTheme.headlineLarge?.copyWith(
                       fontWeight: FontWeight.bold,
                       fontSize: 40,
@@ -33,7 +33,7 @@ class IntroPageView extends StatelessWidget {
 
             //subtitle
             Text(
-              LanguageItems().subtitle,
+              LanguageItems.subtitle,
               textAlign: TextAlign.center,
               style: Theme.of(context).textTheme.bodyMedium,
             ),
@@ -54,7 +54,7 @@ class IntroPageView extends StatelessWidget {
                   fixedSize: const Size(250, 50),
                 ),
                 child: Text(
-                  LanguageItems().getStarted,
+                  LanguageItems.getStarted,
                   style: Theme.of(context)
                       .textTheme
                       .titleMedium
