@@ -6,4 +6,6 @@ class LanguageItems {
   static const String getStarted = 'Get started';
   static const String hello = 'Hello!';
   static const String ozm0z = 'developed by Ozm0z';
+  static const String slogan1 = '''Let's order fresh items for you!''';
+  static const String freshItems = 'Fresh Items>>>';
 }

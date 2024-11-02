@@ -49,26 +49,28 @@ class IntroPageView extends StatelessWidget {
                   }));
                 },
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.white,
-                  backgroundColor: Colors.purple,
+                  backgroundColor: ColorUtility.purple,
                   fixedSize: const Size(250, 50),
                 ),
                 child: Text(
                   LanguageItems.getStarted,
-                  style: Theme.of(context)
-                      .textTheme
-                      .titleMedium
-                      ?.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: ColorUtility.white,
+                        fontWeight: FontWeight.bold,
+                      ),
                 ),
               ),
             ),
 
-            //by Ozm0z
+            //developer sign
             const Padding(
-              padding: EdgeInsets.only(top: 100),
+              padding: PaddingUtility.paddingDevSign,
               child: Text(
                 LanguageItems.ozm0z,
-                style: TextStyle(color: Colors.grey, fontStyle: FontStyle.italic),
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontStyle: FontStyle.italic,
+                ),
               ),
             )
           ],
@@ -82,4 +84,11 @@ class PaddingUtility {
   static const paddingAll = EdgeInsets.all(10.0);
   static const paddingMainTitle = EdgeInsets.all(24.0);
   static const paddingTextButton = EdgeInsets.all(50.0);
+  static const paddingDevSign = EdgeInsets.only(top: 100);
+}
+
+class ColorUtility {
+  static const grey = Colors.grey;
+  static const white = Colors.white;
+  static const purple = Colors.purple;
 }
