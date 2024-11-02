@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_profile_picture/flutter_profile_picture.dart';
-import 'package:grocery_shop_ui/components/grocery_item_tiles.dart';
 import 'package:grocery_shop_ui/intro_page_view.dart';
-import 'package:grocery_shop_ui/model/cart_model.dart';
 import 'package:grocery_shop_ui/product/language_items.dart';
 
 class HomePage extends StatelessWidget {
@@ -64,6 +62,7 @@ class HomePage extends StatelessWidget {
                   itemBuilder: (context, index) {
                     //!burda kaldım devam edilecek
                     // return GroceryItemTiles()
+                    return null;
                   }))
         ],
       ),
@@ -71,6 +70,7 @@ class HomePage extends StatelessWidget {
   }
 }
 
+// ignore: camel_case_types
 class _Location_Profile extends StatelessWidget {
   const _Location_Profile();
 
